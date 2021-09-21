@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
             </div>
             <div class="form-group mt-2">
               <label for="password">Password</label>
-              <input type="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>"" name="password" id="password" aria-describedby="helpId" value="<?php echo $password; ?>">
+              <input type="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" name="password" id="password" aria-describedby="helpId" value="<?php echo $password; ?>">
               <span class="invalid-feedback"><?php echo $password_err; ?></span>
 
             </div>

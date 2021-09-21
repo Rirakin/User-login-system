@@ -154,19 +154,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>"" name="email" id="email" aria-describedby="helpId" value="<?php echo $email; ?>">
+              <input type="email" class="form-control <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" name="email" id="email" aria-describedby="helpId" value="<?php echo $email; ?>">
               <span class="invalid-feedback"><?php echo $email_err; ?></span>
 
             </div>
             <div class="form-group mt-2">
               <label for="password">Password</label>
-              <input type="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>"" name="password" id="password" aria-describedby="helpId" value="<?php echo $password; ?>">
+              <input type="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" name="password" id="password" aria-describedby="helpId" value="<?php echo $password; ?>">
               <span class="invalid-feedback"><?php echo $password_err; ?></span>
 
             </div>
             <div class="form-group mt-2">
               <label for="confirm_password">Confirm password</label>
-              <input type="password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>"" name="confirm_password" id="confirm_password" aria-describedby="helpId" value="<?php echo $confirm_password; ?>">
+              <input type="password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" name="confirm_password" id="confirm_password" aria-describedby="helpId" value="<?php echo $confirm_password; ?>">
               <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
 
             </div>
