@@ -25,7 +25,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true)
     <div class="container mt-5" style="max-width: 30rem;">
         <h1>Hello, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.</h1><br>
         <p>Welcome to our site.</p>
-
+        <a href="logout.php">Log out</a>
+        <a href="reset-password.php">Reset Password</a>
     </div>
     
   
